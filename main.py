@@ -84,5 +84,5 @@ if __name__ == "__main__":
     image[mask] = 1
     image[~mask] = 0
     plt.imshow(image, cmap="Greys")
-    plt.imsave('binarized.jpg', image)
+    plt.imsave("binarized.jpg", image)
     plt.waitforbuttonpress()
